@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+@font-face {
+  font-family: "Montserrat-VariableFont";
+  src: url(./fuentes/Montserrat-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: "RubikDirt-Regular";
+  src: url(./fuentes/RubikDirt-Regular.ttf); }

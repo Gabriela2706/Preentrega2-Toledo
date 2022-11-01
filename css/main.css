@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*FIN DEL RESETEO*/
+
+/*INICIO ESTILO EL BODY DE TODAS LAS PAGINAS*/
+
+
+@font-face {
+    font-family: "Montserrat-VariableFont";
+    src: url(./fuentes/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "RubikDirt-Regular";
+    src: url(./fuentes/RubikDirt-Regular.ttf);
+}
+
+body {
+    background-color: rgb(196, 252, 252);
+    font-family: "Montserrat-VariableFont";
+    font-size: 100%;
+}
+
+.nav-redes {
+    text-decoration: none;
+    color: rgb(75, 37, 145);
+    transition: all 0.5s;
+}
+
+.nav-redes:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+}
+
+/* FIN ESTILO BODY PARA TODAS LAS PAGINAS*/
+/* INICIO DE ESTILO PARA EL HEADER DEL INDEX */
+
+.titulo-portada {
+    color: rgb(75, 37, 145);
+    text-align: center;
+    font-family: "RubikDirt-Regular";
+    font-size: 600%;
+    transition: all 03s;
+}
+
+.titulo-portada:hover {
+    color: rgb(255, 0, 128);
+    
+}
+
+.bloque {
+    text-align: center;
+}
+
+/*FIN DEL ESTILO PARA HEADER DEL INDEX*/
+
+/*INICIO ESTILO PARA MAIN DEL INDEX*/
+
+.eleccion-compra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 60% 30%;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.compra-responsive {
+    display: none;
+}
+
+.texto-compra {
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.color-compra {
+    background-color: rgb(75, 37, 145);
+}
+
+/*FIN DEL ESTILO DEL MAIN DEL INDEX*/
+
+/* INICIO DEL ESTILO MAIN PAG MARCAS*/
+.eleccion-marcas {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 50px 250px;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.borde {
+    border: solid 3px;
+}
+
+.borde-uno {
+    border: none;
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    font-family: "RubikDirt-Regular";
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.texto:hover {
+    color: rgb(255, 0, 128);
+}
+
+.border-e {
+    border: solid 1px white;
+}
+
+/* FIN DEL ESTILO MAIN PAG MARCAS*/
+/* INICIO DEL ESTILO MAIN PAG ENVIOS*/
+.color-envios {
+    background-color: rgb(75, 37, 145);
+}
+
+.color-claro {
+    background-color: rgb(138, 103, 204);
+}
+
+.color-numeros {
+    background-color: rgb(255, 57, 156);
+    font-family: "RubikDirt-Regular";
+    transition: all 3s;
+}
+
+.color-numeros:hover {
+    background-color: rgb(75, 37, 145);
+    font-family: "RubikDirt-Regular";
+    transform: scale(1.1);
+}
+
+.h5 {
+    margin: 0;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.camion {
+    transition: all 3s;
+}
+
+.camion:hover {
+    transform: translate(600%);
+}
+
+/* FIN DEL ESTILO MAIN PAG ENVIOS*/
+
+/*INICIO DEL ESTILO DEL MAIN PAG CONTACTO*/
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.form-titulo {
+    font-family: "RubikDirt-Regular";
+    transition: all 0.5s;
+}
+
+.form-titulo:hover {
+    font-family: "RubikDirt-Regular";
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+
+form {
+    margin-top: 50px;
+    width: 300px;
+    background-color: rgb(138, 103, 204);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+textarea,
+input {
+    outline: none;
+}
+
+textarea:focus {
+    border-color: rgb(255, 57, 156);
+}
+
+
+input:focus {
+    border-color: rgb(255, 57, 156);
+}
+
+.boton-enviar {
+    background-color: rgb(255, 57, 156);
+    padding: 10px;
+    width: 240px;
+}
+
+iframe {
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+/*FIN DEL ESTILO MAIN PAG CONTACTO*/
+/*INICIO ESTILO FOOTER*/
+
+.titulo-footer {
+    color: rgb(247, 245, 250);
+    font-family: "RubikDirt-Regular";
+    font-size: 200%;
+    transition: all 0.5s;
+}
+
+.titulo-footer:hover {
+    color: rgb(255, 0, 128);
+    transform: scale(1.4);
+}
+
+/*FIN ESTILO FOOTER*/
+/*INICIO DEL MEDIA QUERIES*/
+
+
+@media screen and (max-width: 768px) {
+    .titulo-portada {
+        color: rgb(75, 37, 145);
+        text-align: center;
+        font-family: "RubikDirt-Regular";
+        font-size: 400%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eleccion-compra {
+        display: none;
+    }
+
+    .compra-responsive {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eleccion-marcas {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #formulario {
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .iframe-lg {
+        display: none
+    }
+
+    .iframe-responsive {
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .iframe-responsive {
+        display: none;
+    }
+}

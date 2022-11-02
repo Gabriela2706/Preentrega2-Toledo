@@ -1,12 +1,11 @@
-
 .titulo-footer {
-    color: rgb(247, 245, 250);
-    font-family: "RubikDirt-Regular";
+    color: $textoblanco;
+    font-family: $titulos;
     font-size: 200%;
     transition: all 0.5s;
-}
 
-.titulo-footer:hover {
-    color: rgb(255, 0, 128);
-    transform: scale(1.4);
+    &:hover {
+        color:$fucsia;
+        transform: scale(1.4);
+    }
 }

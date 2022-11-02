@@ -1,8 +1,8 @@
 @media screen and (max-width: 768px) {
     .titulo-portada {
-        color: rgb(75, 37, 145);
+        color: $morado;
         text-align: center;
-        font-family: "RubikDirt-Regular";
+        font-family: $titulos;
         font-size: 400%;
 
     }

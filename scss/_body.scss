@@ -1,16 +1,18 @@
 @font-face {
-    font-family: "Montserrat-VariableFont";
+    font-family: $textogral;
     src: url(./../css/fuentes/Montserrat-VariableFont_wght.ttf);
+
 }
 
 @font-face {
-    font-family: "RubikDirt-Regular";
+    font-family: $titulos;
     src: url(./../css/fuentes/RubikDirt-Regular.ttf);
 }
 
+
 body {
-    background-color: rgb(196, 252, 252);
-    font-family: "Montserrat-VariableFont";
+    background-color: $color-fondo;
+    font-family: $textogral;
     font-size: 100%;
 }
 
@@ -21,6 +23,7 @@ body {
     gap: 20px;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .compra-responsive {
@@ -28,14 +31,12 @@ body {
 }
 
 .texto-compra {
-    color: black;
+    color: $textonegro;
     text-align: center;
     margin-top: 4%;
 }
 
-.color-compra {
-    background-color: rgb(75, 37, 145);
-}
+
 
 .eleccion-marcas {
     display: grid;
@@ -46,6 +47,15 @@ body {
     justify-content: space-between;
 }
 
+.texto {
+    color: $textoblanco;
+    font-size: 25px;
+    text-align: center;
+    font-family: $titulos;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+}
 
 .borde {
     border: solid 3px;
@@ -55,17 +65,12 @@ body {
     border: none;
 }
 
-.texto {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    text-align: center;
-    font-family: "RubikDirt-Regular";
-    border-radius: 8px;
-    transition: all 0.5s;
-}
+.color-compra {
+    background-color: $morado;
 
-.texto:hover {
-    color: rgb(255, 0, 128);
+    &:hover {
+        color: $fucsia;
+    }
 }
 
 .border-e {
@@ -73,24 +78,25 @@ body {
 }
 
 .color-envios {
-    background-color: rgb(75, 37, 145);
+    background-color: $morado;
 }
 
 .color-claro {
-    background-color: rgb(138, 103, 204);
+    background-color: $moradoclaro;
 }
 
 .color-numeros {
-    background-color: rgb(255, 57, 156);
-    font-family: "RubikDirt-Regular";
+    background-color: $fucsia;
+    font-family: $titulos;
     transition: all 3s;
+
+    &:hover {
+        background-color: $morado;
+        font-family: $titulos;
+        transform: scale(1.1);
+    }
 }
 
-.color-numeros:hover {
-    background-color: rgb(75, 37, 145);
-    font-family: "RubikDirt-Regular";
-    transform: scale(1.1);
-}
 
 .h5 {
     margin: 0;
@@ -102,10 +108,10 @@ body {
 
 .camion {
     transition: all 3s;
-}
 
-.camion:hover {
-    transform: translate(600%);
+    &:hover {
+        transform: translate(600%);
+    }
 }
 
 iframe {

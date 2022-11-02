@@ -6,14 +6,14 @@
 
 
 .form-titulo {
-    font-family: "RubikDirt-Regular";
+    font-family: $titulos;
     transition: all 0.5s;
-}
 
-.form-titulo:hover {
-    font-family: "RubikDirt-Regular";
-    color: rgb(255, 255, 255);
-    transform: scale(1.1);
+    &:hover {
+        font-family: $titulos;
+        color: $textoblanco;
+        transform: scale(1.1);
+    }
 }
 
 
@@ -28,19 +28,14 @@ form {
 textarea,
 input {
     outline: none;
-}
 
-textarea:focus {
-    border-color: rgb(255, 57, 156);
-}
-
-
-input:focus {
-    border-color: rgb(255, 57, 156);
+    &:focus {
+        border-color: $fucsia;
+    }
 }
 
 .boton-enviar {
-    background-color: rgb(255, 57, 156);
+    background-color: $fucsia;
     padding: 10px;
     width: 240px;
 }

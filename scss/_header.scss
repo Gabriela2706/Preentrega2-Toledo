@@ -1,10 +1,10 @@
 .nav-redes {
     text-decoration: none;
-    color: rgb(75, 37, 145);
+    color: $morado;
     transition: all 0.5s;
-}
 
-.nav-redes:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 128);
+    &:hover {
+        text-decoration: none;
+        color: $fucsia;
+    }
 }

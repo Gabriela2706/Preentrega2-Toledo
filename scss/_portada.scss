@@ -1,15 +1,16 @@
 .titulo-portada {
-    color: rgb(75, 37, 145);
+    color: $morado;
     text-align: center;
-    font-family: "RubikDirt-Regular";
+    font-family: $titulos;
     font-size: 600%;
     transition: all 03s;
+
+    &:hover {
+        color: $fucsia;
+
+    }
 }
 
-.titulo-portada:hover {
-    color: rgb(255, 0, 128);
-    
-}
 
 .bloque {
     text-align: center;

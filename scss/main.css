@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -108,6 +109,19 @@ body {
 iframe {
   margin-top: 70px;
   border-radius: 15px; }
+
+/* Definimos un map: allí guardamos un par de datos, en este caso compra y su color, envios y su color, etc */
+.compra-color {
+  background-color: black; }
+
+.envios-color {
+  background-color: #4b2591; }
+
+.claro-color {
+  background-color: #ff0080; }
+
+.numeros-color {
+  background-color: #ff0080; }
 
 #formulario {
   display: flex;

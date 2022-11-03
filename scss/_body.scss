@@ -117,3 +117,17 @@ iframe {
     margin-top: 70px;
     border-radius: 15px;
 }
+
+/* Definimos un map: allí guardamos un par de datos, en este caso compra y su color, envios y su color, etc */
+$secciones_y_colores: (
+    compra: $textonegro,
+    envios: $morado,
+    claro: $fucsia,
+    numeros: $fucsia,
+);
+
+@each $seccion, $color in $secciones_y_colores {
+    .#{$seccion}-color{
+        background-color: $color;
+    }
+}

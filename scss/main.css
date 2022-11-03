@@ -105,9 +105,29 @@ body {
   .camion:hover {
     transform: translate(600%); }
 
-iframe {
-  margin-top: 70px;
-  border-radius: 15px; }
+.iframe-lg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-color: #8a67cc;
+  border-style: double;
+  margin-top: 15px;
+  width: 700px;
+  height: 400px;
+  background-color: #ff0080; }
+
+.iframe-responsive {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-color: #8a67cc;
+  border-style: double;
+  margin-top: 15px;
+  width: 400px;
+  height: 350px;
+  background-color: #4b2591; }
 
 #formulario {
   display: flex;
@@ -180,9 +200,7 @@ input {
 
 @media screen and (max-width: 768px) {
   .iframe-lg {
-    display: none; }
-  .iframe-responsive {
-    border-radius: 5px; } }
+    display: none; } }
 
 @media screen and (min-width: 769px) {
   .iframe-responsive {

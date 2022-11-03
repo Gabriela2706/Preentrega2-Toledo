@@ -113,7 +113,30 @@ body {
     }
 }
 
-iframe {
-    margin-top: 70px;
-    border-radius: 15px;
+.iframe-lg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-color: $moradoclaro;
+    border-style: double;
+    margin-top: 15px;
+    width: 700px;
+    height: 400px;
+    background-color: $fucsia;
+}
+
+
+.iframe-responsive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-color: $moradoclaro;
+    border-style: double;
+    margin-top: 15px;
+    width: 400px;
+    height: 350px;
+    background-color: $morado;
+    
 }

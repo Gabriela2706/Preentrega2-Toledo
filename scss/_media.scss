@@ -40,18 +40,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .iframe-lg {
-        display: none
-    }
-
-    .iframe-responsive {
-        border-radius: 5px;
-    }
-
+   .iframe-lg {
+    display: none;
+   }
+   
 }
 
 @media screen and (min-width: 769px) {
-    .iframe-responsive {
+    .iframe-responsive{
         display: none;
     }
 }

@@ -16,13 +16,26 @@ body {
     font-size: 100%;
 }
 
+@mixin eleccion {
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .eleccion-compra {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10% 60% 30%;
-    gap: 20px;
-    flex-direction: row;
-    justify-content: space-between;
+    @include eleccion;
+
+}
+
+.eleccion-marcas {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 50px 250px;
+    @include eleccion;
+
 
 }
 
@@ -36,16 +49,6 @@ body {
     margin-top: 4%;
 }
 
-
-
-.eleccion-marcas {
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 50px 250px;
-    gap: 20px;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .texto {
     color: $textoblanco;
@@ -98,11 +101,7 @@ body {
 }
 
 
-.h5 {
-    margin: 0;
-}
-
-.h2 {
+.h5 .h2 {
     margin: 0;
 }
 

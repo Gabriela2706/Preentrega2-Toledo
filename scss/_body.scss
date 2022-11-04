@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-.eleccion-compra {
+#eleccion-compra {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10% 60% 30%;
@@ -30,7 +30,7 @@ body {
 
 }
 
-.eleccion-marcas {
+#eleccion-marcas {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: 50px 250px;
@@ -100,8 +100,63 @@ body {
     }
 }
 
+#titulo-qs {
+    text-decoration: underline;
+    margin-top: 25px;
+}
 
-.h5 .h2 {
+#titulo-ct {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.contenedor-equipo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.equipo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 510px;
+    padding-right: 510px;
+    font-family: $titulos;
+    color: black;
+    font-size: x-large;
+    background-color: $color-fondo;
+    align-items: center;
+}
+
+.equipo-1 {
+    @extend .equipo;
+    background-color: $fucsia;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.equipo-2 {
+    @extend .equipo;
+    background-color: $morado;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.equipo-3 {
+    @extend .equipo;
+    background-color: $moradoclaro;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.h5 {
+    margin-bottom: 0;
+}
+
+.h2 {
     margin: 0;
 }
 
@@ -135,8 +190,8 @@ body {
     border-color: $moradoclaro;
     border-style: double;
     margin-top: 15px;
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     background-color: $morado;
-    
+
 }

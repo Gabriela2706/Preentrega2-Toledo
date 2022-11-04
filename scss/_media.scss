@@ -9,8 +9,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .eleccion-compra {
-        display: none;
+    #eleccion-compra {
+        display: none
     }
 
     .compra-responsive {
@@ -19,12 +19,12 @@
         grid-template-rows: auto;
         gap: 20px;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center
     }
 }
 
 @media screen and (max-width: 768px) {
-    .eleccion-marcas {
+    #eleccion-marcas {
         display: none;
     }
 
@@ -40,14 +40,38 @@
 }
 
 @media screen and (max-width: 768px) {
-   .iframe-lg {
-    display: none;
-   }
-   
+    .iframe-lg {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 769px) {
-    .iframe-responsive{
+    .iframe-responsive {
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-equipo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equipo {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .equipo-1 {
+        margin: 15px;
+    }
+
+    .equipo-2 {
+        margin: 15px;
+    }
+
+    .equipo-3 {
+        margin: 15px;
     }
 }

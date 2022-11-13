@@ -76,6 +76,20 @@ body {
     }
 }
 
+.color-marca {
+    color: $textoblanco;
+    font-size: 25px;
+    text-align: center;
+    font-family: $titulos;
+    border-radius: 8px;
+    transition: all 0.5s;
+    background-color: black;
+
+    &:hover {
+        color: $fucsia;
+    }
+}
+
 .border-e {
     border: solid 1px white;
 }
@@ -120,13 +134,13 @@ body {
 .equipo {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 510px;
-    padding-right: 510px;
-    font-family: $titulos;
+    padding-left: 490px;
     color: black;
-    font-size: x-large;
+    font-weight: bold;
+    font-size: xx-large;
     background-color: $color-fondo;
     align-items: center;
+    border: none;
 }
 
 .equipo-1 {
@@ -134,6 +148,7 @@ body {
     background-color: $fucsia;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: x-large;
 }
 
 .equipo-2 {
@@ -141,6 +156,7 @@ body {
     background-color: $morado;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: x-large;
 }
 
 
@@ -149,6 +165,7 @@ body {
     background-color: $moradoclaro;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: x-large;
 }
 
 

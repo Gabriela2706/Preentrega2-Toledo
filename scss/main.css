@@ -79,6 +79,17 @@ body {
   .color-compra:hover {
     color: #ff0080; }
 
+.color-marca {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "RubikDirt-Regular";
+  border-radius: 8px;
+  transition: all 0.5s;
+  background-color: black; }
+  .color-marca:hover {
+    color: #ff0080; }
+
 .border-e {
   border: solid 1px white; }
 
@@ -114,28 +125,31 @@ body {
 .equipo, .equipo-1, .equipo-2, .equipo-3 {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 510px;
-  padding-right: 510px;
-  font-family: "RubikDirt-Regular";
+  padding-left: 490px;
   color: black;
-  font-size: x-large;
+  font-weight: bold;
+  font-size: xx-large;
   background-color: #c4fcfc;
-  align-items: center; }
+  align-items: center;
+  border: none; }
 
 .equipo-1 {
   background-color: #ff0080;
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  font-size: x-large; }
 
 .equipo-2 {
   background-color: #4b2591;
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  font-size: x-large; }
 
 .equipo-3 {
   background-color: #8a67cc;
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  font-size: x-large; }
 
 .h5 {
   margin-bottom: 0; }

@@ -25,11 +25,13 @@
 
 @font-face {
   font-family: "Montserrat-VariableFont";
-  src: url(./../css/fuentes/Montserrat-VariableFont_wght.ttf); }
+  src: url(./../css/fuentes/Montserrat-VariableFont_wght.ttf);
+  font-display: swap; }
 
 @font-face {
   font-family: "RubikDirt-Regular";
-  src: url(./../css/fuentes/RubikDirt-Regular.ttf); }
+  src: url(./../css/fuentes/RubikDirt-Regular.ttf);
+  font-display: swap; }
 
 body {
   background-color: #c4fcfc;
